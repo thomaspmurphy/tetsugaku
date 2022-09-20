@@ -34,7 +34,7 @@ gem "mecab"
 gem 'jisho_api'
 
 # i18n_data for language codes [https://github.com/grosser/i18n_data]
-gem "i18n_data@ 
+gem "i18n_data" 
 
 # Use Redis adapter to run Action Cable in production
 # gem "redis", "~> 4.0"

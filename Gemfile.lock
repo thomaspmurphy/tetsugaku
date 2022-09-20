@@ -93,6 +93,8 @@ GEM
       activesupport (>= 5.0)
     i18n (1.12.0)
       concurrent-ruby (~> 1.0)
+    i18n_data (0.17.1)
+      simple_po_parser (~> 1.1)
     importmap-rails (1.1.5)
       actionpack (>= 6.0.0)
       railties (>= 6.0.0)
@@ -176,6 +178,7 @@ GEM
       rexml (~> 3.2, >= 3.2.5)
       rubyzip (>= 1.2.2, < 3.0)
       websocket (~> 1.0)
+    simple_po_parser (1.1.6)
     sprockets (4.1.1)
       concurrent-ruby (~> 1.0)
       rack (> 1, < 3)
@@ -219,6 +222,7 @@ DEPENDENCIES
   bootsnap
   capybara
   debug
+  i18n_data
   importmap-rails
   jbuilder
   jisho_api
