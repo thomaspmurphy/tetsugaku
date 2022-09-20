@@ -1,13 +1,18 @@
 # README
 
+Tetsugaku 哲学 is a modern Rails app built for the storage and presentation of translations and definitions of the terminology of Japanese philosopher Nishida Kitarō (西田 幾多郎). As this app is developed and generalisations and best practices are drawn out, it is hoped that a fresh installation of this framework will serve for similar use-cases for other terminology systems, whether they are multilingual or not and whether they pertain to philosophy or other fields of study.
+
+This app will particularly focus on the interplay of testing procedures and software specifications as well as making use of modern Ruby toling with Hotwire for presenting views.
+
+---
+
 > the symbolic world […] a world in which […] everything one sees and hears is a symbol, and even science and mathematics become song at the feast in the realm of the Blue Flower. —Nishida Kitarō, ‘Various Worlds’
 
 > Understanding things through the motion of their concepts is a necessary path to grasping things at their roots. —Tosaka Jun, Preface to *Methodology of Science*
 
-## About 哲学
-Tetsugaku 哲学 is a modern Rails app built for the storage and presentation of translations and definitions of the terminology of Japanese philosopher Nishida Kitarō (西田 幾多郎). As this app is developed and generalisations and best practices are drawn out, it is hoped that a fresh installation of this framework will serve for similar use-cases for other terminology systems, whether they are multilingual or not and whether they pertain to philosophy or other fields of study.
+## What is 哲学?
 
-Create domain models for concepts so they can be adapted to the MVC ontology is well-suited to the Nishidan philosophical perspective, inspired as it was by Emil Lask's *Gebietskategorien*: domain categories. Concepts are not static pointers but rather predicates forming domains for beings to navigate, which is akin to certain ideas bringing type theory and topology together in contemporary mathematics and computer science. 
+Creating domain models for concepts so they can be adapted to the MVC ontology is well-suited to the Nishidan philosophical perspective, inspired as it was by Emil Lask's *Gebietskategorien*: domain categories. In this view concepts are not static pointers but rather predicates forming domains for beings to navigate, which is akin to certain ideas bringing type theory and topology together in contemporary mathematics and computer science. 
 
 This particular terminology set presents a unique challenge since, in the first instance, Nishida was translating a number of concepts from European philosophy for the first time, before they were made consistent in Japan. Additionally, a number of his original concepts draw on various aspects of the Buddhist cannon which may be less familiar to western interpreters, and which may not been translated consistently elsewhere.
 
