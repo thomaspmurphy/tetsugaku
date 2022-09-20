@@ -1,6 +1,8 @@
 # README
 
-> ‘the symbolic world […] a world in which […] everything one sees and hears is a symbol, and even science and mathematics become song at the feast in the realm of the Blue Flower.’ —Nishida, Kitarō, ‘Various Worlds’
+> the symbolic world […] a world in which […] everything one sees and hears is a symbol, and even science and mathematics become song at the feast in the realm of the Blue Flower. —Nishida Kitarō, ‘Various Worlds’
+
+> Understanding things through the motion of their concepts is a necessary path to grasping things at their roots. —Tosaka Jun, Preface to *Methodology of Science*
 
 ## About 哲学
 Tetsugaku 哲学 is a modern Rails app built for the storage and presentation of translations and definitions of the terminology of Japanese philosopher Nishida Kitarō (西田 幾多郎). As this app is developed and generalisations and best practices are drawn out, it is hoped that a fresh installation of this framework will serve for similar use-cases for other terminology systems, whether they are multilingual or not and whether they pertain to philosophy or other fields of study.
