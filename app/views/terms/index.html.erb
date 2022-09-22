@@ -1,0 +1,14 @@
+<p style="color: green"><%= notice %></p>
+
+<h1>Terms</h1>
+
+<div id="terms">
+  <% @terms.each do |term| %>
+    <%= render term %>
+    <p>
+      <%= link_to "Show this term", term %>
+    </p>
+  <% end %>
+</div>
+
+<%= link_to "New term", new_term_path %>

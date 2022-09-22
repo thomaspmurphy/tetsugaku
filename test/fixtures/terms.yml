@@ -1,0 +1,15 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name_jp: MyString
+  name_romanji: MyString
+  name_en: MyString
+  definition: MyText
+  usages: MyText
+
+two:
+  name_jp: MyString
+  name_romanji: MyString
+  name_en: MyString
+  definition: MyText
+  usages: MyText
