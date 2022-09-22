@@ -1,6 +1,12 @@
 <p style="color: green"><%= notice %></p>
 
-<h1>Terms</h1>
+<div id="tetsulogo">
+  <%= link_to root_path do %>
+    <h1 id="tetsugaku">哲学</h1>
+  <% end %>
+
+  <p>A terminology system for the work of 西田 幾多郎<p>
+</div>
 
 <div id="terms">
   <% @terms.each do |term| %>

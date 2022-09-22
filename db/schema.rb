@@ -12,11 +12,13 @@
 
 ActiveRecord::Schema[7.0].define(version: 2022_09_22_115148) do
   create_table "terms", force: :cascade do |t|
+    t.string "db_name"
     t.string "name_jp"
     t.string "name_romanji"
-    t.string "name_en"
+    t.text "names_en"
     t.text "definition"
     t.text "usages"
+    t.text "precursors"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end

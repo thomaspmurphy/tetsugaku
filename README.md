@@ -26,3 +26,4 @@ The work of Jacynthe Tremblay in her *Le lexique philosophique de Nishida Kitar≈
 
 ## Gems/frameworks used
 - [Mecab](https://github.com/markburns/mecab) for Japanese morphological analysis.
+- [Google Japanese Fonts](https://googlefonts.github.io/japanese/#mplus1p) for some fantastic Japanese fonts, which present interesting problems for design and typographic rhythm (see [here](https://www.linkedin.com/pulse/web-typography-japanese-hayataki-masaharu)).

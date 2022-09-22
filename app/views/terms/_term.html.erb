@@ -1,17 +1,20 @@
 <div id="<%= dom_id term %>">
   <p>
-    <strong>Name jp:</strong>
+    <h2 id="name_jp">
     <%= term.name_jp %>
+    </h2>
   </p>
 
   <p>
-    <strong>Name romanji:</strong>
+    <strong>Romanji:</strong>
     <%= term.name_romanji %>
   </p>
 
   <p>
-    <strong>Name en:</strong>
-    <%= term.name_en %>
+    <strong>English translations:</strong>
+    <% term.names_en.each do |name_en| %>
+      <li><%= name_en %></li>
+    <% end %>  
   </p>
 
   <p>
@@ -21,7 +24,16 @@
 
   <p>
     <strong>Usages:</strong>
-    <%= term.usages %>
+    <% term.usages.each do |usage| %>
+      <li><%= usage %></li>
+    <% end %>  
+  </p>
+
+    <p>
+    <strong>Precursors:</strong>
+    <% term.precursors.each do |precursor| %>
+      <li><%= precursor %></li>
+    <% end %>  
   </p>
 
 </div>

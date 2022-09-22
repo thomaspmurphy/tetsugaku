@@ -13,3 +13,28 @@
  *= require_tree .
  *= require_self
  */
+
+div#tetsulogo {
+    border: 6px solid #ffb300;
+    padding: 15px 15px 25px 25px;
+ }
+
+ #tetsugaku {
+    font-family: "Kokoro";
+    font-size: 60px;
+    font-color: #ffb300;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none; 
+ }
+
+ h2#name_jp { 
+    font-family: 'M PLUS Rounded 1c', sans-serif; 
+    font-size: 40px;
+    font-weight: normal;
+    font-style: normal;
+}
+
+a {
+    text-decoration: none;
+}
