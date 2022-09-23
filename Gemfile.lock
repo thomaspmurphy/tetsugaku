@@ -68,10 +68,18 @@ GEM
       tzinfo (~> 2.0)
     addressable (2.8.1)
       public_suffix (>= 2.0.2, < 6.0)
+    ast (2.4.2)
     babel-source (5.8.35)
     babel-transpiler (0.7.0)
       babel-source (>= 4.0, < 6)
       execjs (~> 2.0)
+    better_html (2.0.1)
+      actionview (>= 6.0)
+      activesupport (>= 6.0)
+      ast (~> 2.0)
+      erubi (~> 1.4)
+      parser (>= 2.4)
+      smart_properties
     bindex (0.8.1)
     bootsnap (1.13.0)
       msgpack (~> 1.2)
@@ -88,6 +96,7 @@ GEM
     childprocess (4.1.0)
     concurrent-ruby (1.1.10)
     connection_pool (2.3.0)
+    constant_resolver (0.2.0)
     crass (1.0.6)
     debug (1.6.2)
       irb (>= 1.3.6)
@@ -97,6 +106,11 @@ GEM
     execjs (2.8.1)
     globalid (1.0.0)
       activesupport (>= 5.0)
+    graphwerk (1.2.1)
+      activesupport
+      packwerk
+      ruby-graphviz
+      sorbet-runtime
     i18n (1.12.0)
       concurrent-ruby (~> 1.0)
     importmap-rails (1.1.5)
@@ -136,6 +150,19 @@ GEM
     nio4r (2.5.8)
     nokogiri (1.13.8-x86_64-darwin)
       racc (~> 1.4)
+    packwerk (2.2.0)
+      activesupport (>= 5.2)
+      ast
+      better_html
+      bundler
+      constant_resolver (>= 0.2.0)
+      digest
+      parallel
+      parser
+      sorbet-runtime (>= 0.5.9914)
+    parallel (1.22.1)
+    parser (3.1.2.1)
+      ast (~> 2.4.1)
     public_suffix (5.0.0)
     puma (5.6.5)
       nio4r (~> 2.0)
@@ -182,6 +209,8 @@ GEM
     reline (0.3.1)
       io-console (~> 0.5)
     rexml (3.2.5)
+    ruby-graphviz (1.2.5)
+      rexml
     rubyzip (2.3.2)
     selenium-webdriver (4.4.0)
       childprocess (>= 0.5, < 5.0)
@@ -189,6 +218,8 @@ GEM
       rubyzip (>= 1.2.2, < 3.0)
       websocket (~> 1.0)
     semantic_range (3.0.0)
+    smart_properties (1.17.0)
+    sorbet-runtime (0.5.10455)
     sprockets (4.1.1)
       concurrent-ruby (~> 1.0)
       rack (> 1, < 3)
@@ -242,8 +273,10 @@ DEPENDENCIES
   bootsnap
   capybara
   debug
+  graphwerk
   importmap-rails
   jbuilder
+  packwerk
   puma (~> 5.0)
   rails (~> 7.0.4)
   react-rails

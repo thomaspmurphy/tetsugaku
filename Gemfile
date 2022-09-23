@@ -31,6 +31,9 @@ gem "jbuilder"
 gem 'webpacker'
 gem 'react-rails'
 
+# enforce modularity
+gem 'packwerk'
+
 # mecab for morphological analysis
 # gem "mecab"
 
@@ -64,6 +67,8 @@ gem "bootsnap", require: false
 group :development, :test do
   # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem
   gem "debug", platforms: %i[ mri mingw x64_mingw ]
+  # generate dependency graph
+  gem 'graphwerk'
 end
 
 group :development do
