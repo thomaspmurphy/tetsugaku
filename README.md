@@ -10,6 +10,11 @@ This app will particularly focus on the interplay of testing procedures and soft
 
 > Understanding things through the motion of their concepts is a necessary path to grasping things at their roots. —Tosaka Jun, Preface to *Methodology of Science*
 
+## TODO
+-
+-
+-
+
 ## What is 哲学?
 
 Creating domain models for concepts so they can be adapted to the MVC ontology is well-suited to the Nishidan philosophical perspective, inspired as it was by Emil Lask's *Gebietskategorien*: domain categories. In this view concepts are not static pointers but rather predicates forming domains for beings to navigate, which is akin to certain ideas bringing type theory and topology together in contemporary mathematics and theoretical computer science. For example, there is Per Martin-Löf's [adaptation of the Kantian notion of judgement to type theory](https://archive-pml.github.io/martin-lof/pdfs/Martin-Lof-Analytic-and-Synthetic-Judgements-in-Type-Theory.pdf). 
@@ -25,6 +30,8 @@ A term such as 場所, *bashō*, which is rendered in the English variously as *
 The work of Jacynthe Tremblay in her *Le lexique philosophique de Nishida Kitarō* has proved invaluable in this endeavour.
 
 ## Gems/frameworks used
+- [ViewComponent](https://github.com/ViewComponent/view_component) for creating testable components the views associated with my term model. This will also help to enforce modularity and reduce exposure of components.
+- [Packwerk](https://github.com/Shopify/packwerk) and [Graphwerk](https://github.com/bellroy/graphwerk) for modelling dependencies.
 - [Mecab](https://github.com/markburns/mecab) for Japanese morphological analysis.
 - [Google Japanese Fonts](https://googlefonts.github.io/japanese/#mplus1p) for some fantastic Japanese fonts, which present interesting problems for design and typographic rhythm (see [here](https://www.linkedin.com/pulse/web-typography-japanese-hayataki-masaharu)).
 - [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/#summary) to standardise Git workflow and commiting identifiable modifications to the codebase.
