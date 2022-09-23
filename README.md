@@ -33,5 +33,5 @@ The work of Jacynthe Tremblay in her *Le lexique philosophique de Nishida Kitar≈
 - [ViewComponent](https://github.com/ViewComponent/view_component) for creating testable components the views associated with my term model. This will also help to enforce modularity and reduce exposure of components.
 - [Packwerk](https://github.com/Shopify/packwerk) and [Graphwerk](https://github.com/bellroy/graphwerk) for modelling dependencies.
 - [Mecab](https://github.com/markburns/mecab) for Japanese morphological analysis.
-- [Google Japanese Fonts](https://googlefonts.github.io/japanese/#mplus1p) for some fantastic Japanese fonts, which present interesting problems for design and typographic rhythm (see [here](https://www.linkedin.com/pulse/web-typography-japanese-hayataki-masaharu)).
+- [Google Japanese Fonts](https://googlefonts.github.io/japanese/#mplus1p) for some fantastic Japanese fonts, which present interesting problems for design and typographic rhythm (see [here](https://www.linkedin.com/pulse/web-typography-japanese-hayataki-masaharu) and [here](https://pavellaptev.medium.com/japanese-typography-on-the-web-tips-and-tricks-981f120ad20e)).
 - [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/#summary) to standardise Git workflow and commiting identifiable modifications to the codebase.
