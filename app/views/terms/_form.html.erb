@@ -22,8 +22,8 @@
   </div>
 
   <div>
-    <%= form.label :name_en, style: "display: block" %>
-    <%= form.text_field :name_en %>
+    <%= form.label :names_en, style: "display: block" %>
+    <%= form.text_field :names_en, multiple: true %>
   </div>
 
   <div>
@@ -33,7 +33,12 @@
 
   <div>
     <%= form.label :usages, style: "display: block" %>
-    <%= form.text_area :usages %>
+    <%= form.text_field :usages, multiple: true %>
+  </div>
+
+  <div>
+    <%= form.label :precursors, style: "display: block" %>
+    <%= form.text_field :precursors, multiple: true %>
   </div>
 
   <div>

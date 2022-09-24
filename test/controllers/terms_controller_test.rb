@@ -17,7 +17,7 @@ class TermsControllerTest < ActionDispatch::IntegrationTest
 
   test "should create term" do
     assert_difference("Term.count") do
-      post terms_url, params: { term: { definition: @term.definition, name_en: @term.name_en, name_jp: @term.name_jp, name_romanji: @term.name_romanji, usages: @term.usages } }
+      post terms_url, params: { term: { db_name: @term.db_name, definition: @term.definition, names_en: @term.names_en, name_jp: @term.name_jp, name_romanji: @term.name_romanji, usages: @term.usages, precursors: @term.precursors } }
     end
 
     assert_redirected_to term_url(Term.last)
@@ -34,7 +34,7 @@ class TermsControllerTest < ActionDispatch::IntegrationTest
   end
 
   test "should update term" do
-    patch term_url(@term), params: { term: { definition: @term.definition, name_en: @term.name_en, name_jp: @term.name_jp, name_romanji: @term.name_romanji, usages: @term.usages } }
+    patch term_url(@term), params: { term: { db_name: @term.db_name, definition: @term.definition, names_en: @term.names_en, name_jp: @term.name_jp, name_romanji: @term.name_romanji, usages: @term.usages,  precursors: @term.precursors } }
     assert_redirected_to term_url(@term)
   end
 

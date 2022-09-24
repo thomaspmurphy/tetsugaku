@@ -11,8 +11,8 @@ This app will particularly focus on the interplay of testing procedures and soft
 > Understanding things through the motion of their concepts is a necessary path to grasping things at their roots. —Tosaka Jun, Preface to *Methodology of Science*
 
 ## TODO
--
--
+- Add UI components from Tailwind
+- Test viewcompon
 -
 
 ## What is 哲学?
@@ -30,8 +30,9 @@ A term such as 場所, *bashō*, which is rendered in the English variously as *
 The work of Jacynthe Tremblay in her *Le lexique philosophique de Nishida Kitarō* has proved invaluable in this endeavour.
 
 ## Gems/frameworks used
-- [ViewComponent](https://github.com/ViewComponent/view_component) for creating testable components the views associated with my term model. This will also help to enforce modularity and reduce exposure of components.
+- [ViewComponent](https://github.com/ViewComponent/view_component) for creating testable components for the views associated with my term model. This will also help to enforce modularity and reduce exposure of components. In the GitHub codebase, ViewComponent unit tests are over 100x faster than similar controller tests.
 - [Packwerk](https://github.com/Shopify/packwerk) and [Graphwerk](https://github.com/bellroy/graphwerk) for modelling dependencies.
 - [Mecab](https://github.com/markburns/mecab) for Japanese morphological analysis.
 - [Google Japanese Fonts](https://googlefonts.github.io/japanese/#mplus1p) for some fantastic Japanese fonts, which present interesting problems for design and typographic rhythm (see [here](https://www.linkedin.com/pulse/web-typography-japanese-hayataki-masaharu) and [here](https://pavellaptev.medium.com/japanese-typography-on-the-web-tips-and-tricks-981f120ad20e)).
 - [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/#summary) to standardise Git workflow and commiting identifiable modifications to the codebase.
+- [Ransack](https://github.com/activerecord-hackery/ransack) for a simple search solution. 

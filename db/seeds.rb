@@ -14,3 +14,10 @@ Term.create(db_name: "basho",
             definition: "Basho is a key...", 
             usages: ["Basho essay", "Hello"], 
             precursors: ["Aristotle: topos", "Plato: khora", "Poincaré on analysis situs"])
+Term.create(db_name: "zettai_mu", 
+            name_jp: "絶対無", 
+            name_romanji: "zettai mu", 
+            names_en: ["absolute nothingness"], 
+            definition: "Basho is a key...", 
+            usages: [], 
+            precursors: ["Aristotle: topos", "Plato: khora", "Poincaré on analysis situs"])

@@ -16,7 +16,8 @@
 
 div#tetsulogo {
     border: 6px solid #ffb300;
-    padding: 15px 15px 25px 25px;
+    padding: 15px 15px 15px 25px;
+
  }
 
  #tetsugaku {
@@ -26,6 +27,18 @@ div#tetsulogo {
     font-weight: normal;
     font-style: normal;
     text-decoration: none; 
+    margin: 10px;
+    writing-mode: vertical-rl;
+ }
+
+ #description {
+    float: right;
+    padding: 60px 60px;
+    font-style: italic;
+ }
+ #description_jp {
+    float: right;
+    padding: 5px 45px;
  }
 
  h2#name_jp { 
@@ -37,4 +50,14 @@ div#tetsulogo {
 
 a {
     text-decoration: none;
+}
+
+#terms {
+    padding-top: 25px;
+}
+
+span.show_link {
+    display: flex; 
+    text-align: right;
+    justify-content: space-around;
 }

@@ -1,15 +1,19 @@
 # Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 one:
+  db_name: MyString
   name_jp: MyString
   name_romanji: MyString
-  name_en: MyString
+  names_en: ["basho", "field", "place"]
   definition: MyText
-  usages: MyText
+  usages: ["basho", "field", "place"]
+  precursors: ["Immanuel Kant", "Emil Lask", "Heinrich Rickert"]
 
 two:
+  db_name: MyString
   name_jp: MyString
   name_romanji: MyString
-  name_en: MyString
+  names_en: ["basho", "field", "place"]
   definition: MyText
-  usages: MyText
+  usages: ["basho", "field", "place"]
+  precursors: ["Immanuel Kant", "Emil Lask", "Heinrich Rickert"]

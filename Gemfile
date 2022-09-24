@@ -34,6 +34,9 @@ gem 'react-rails'
 # enforce modularity
 gem 'packwerk'
 
+# Add search functionality for terms
+gem 'ransack'
+
 # mecab for morphological analysis
 # gem "mecab"
 
