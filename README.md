@@ -1,5 +1,7 @@
 # README
 
+![TETSUGAKU](/screenshot.png)
+
 Tetsugaku 哲学 is a modern Rails app built for the storage and presentation of translations and definitions of the terminology of Japanese philosopher Nishida Kitarō (西田 幾多郎). As this app is developed and generalisations and best practices are drawn out, it is hoped that a fresh installation of this framework will serve for similar use-cases for other terminology systems, whether they are multilingual or not and whether they pertain to philosophy or other fields of study.
 
 This app will particularly focus on the interplay of testing procedures and software specifications as well as making use of modern Ruby toling with Hotwire for presenting views.
