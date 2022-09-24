@@ -1,1 +1,6 @@
-<div>Add Usages template here</div>
+<p class="usages">
+    <strong>Usages:</strong>
+      <% @usages.each do |usage| %>
+        <li><%= usage %></li>
+      <% end %>  
+</p>

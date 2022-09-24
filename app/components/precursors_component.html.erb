@@ -1,1 +1,6 @@
-<div>Add Precursors template here</div>
+<p class="precursors">
+    <strong>Precursors:</strong>
+      <% @precursors.each do |precursor| %>
+        <li><%= precursor %></li>
+      <% end %>  
+</p>

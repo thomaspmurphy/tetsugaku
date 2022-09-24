@@ -1,39 +1,19 @@
-<div id="<%= dom_id term %>">
-  <p>
-    <h2 id="name_jp">
-    <%= term.name_jp %>
-    </h2>
-  </p>
+<div id="container terms">
 
-  <p>
-    <strong>Romanji:</strong>
-    <%= term.name_romanji %>
-  </p>
+    <%= render(NameJpComponent.new(name_jp: term.name_jp)) %>
 
-  <p>
-    <strong>English translations:</strong>
-    <% term.names_en.each do |name_en| %>
-      <li><%= name_en %></li>
-    <% end %>  
-  </p>
+    <%= render(RomanjiComponent.new(romanji: term.name_romanji)) %>
+  
+    <%= render(TranslationsComponent.new(translations: term.names_en)) %>
 
-  <p>
-    <strong>Definition:</strong>
-    <%= term.definition %>
-  </p>
+    <%= render(DefinitionComponent.new(definition: term.definition)) %>
 
-  <p>
-    <strong>Usages:</strong>
-    <% term.usages.each do |usage| %>
-      <li><%= usage %></li>
-    <% end %>  
-  </p>
+    <%= render(UsagesComponent.new(usages: term.usages)) %>
+
+    <%= render(PrecursorsComponent.new(precursors: term.precursors)) %>
 
     <p>
-    <strong>Precursors:</strong>
-    <% term.precursors.each do |precursor| %>
-      <li><%= precursor %></li>
-    <% end %>  
-  </p>
+      <%= link_to "Show this term", term %>
+    </p>
 
 </div>

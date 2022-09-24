@@ -1,9 +1,7 @@
 # frozen_string_literal: true
 
 class NameJpComponent < ViewComponent::Base
-  def initialize(title:, content:)
-    @title = title
-    @content = content
+  def initialize(name_jp:)
+    @name_jp = name_jp
   end
-
 end

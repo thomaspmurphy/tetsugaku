@@ -1,1 +1,6 @@
-<div>Add Translations template here</div>
+<p class="translations">
+    <strong>English translations:</strong>
+      <% @translations.each do |translation| %>
+        <li><%= translation %></li>
+      <% end %>  
+</p>
