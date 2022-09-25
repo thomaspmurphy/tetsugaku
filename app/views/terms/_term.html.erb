@@ -1,25 +1,35 @@
 <div id="tetsulogo" class="container align-top">
   <%= link_to root_path do %>
-    <h1 id="tetsugaku">哲学</h1>
+    <h1 id="tetsugaku">「哲学」</h1>
   <% end %>
 </div>
 
-<div id="container terms">
+<div class="container terms">
 
-    <%= render(NameJpComponent.new(name_jp: term.name_jp)) %>
+    <div class="term-heading">
+    <h2 class="name_jp"><%= render(NameJpComponent.new(name_jp: term.name_jp)) %>
+    </h2>
 
     <%= render(RomanjiComponent.new(romanji: term.name_romanji)) %>
-  
+    <div>
+
+    <div class="term-translations">
     <%= render(TranslationsComponent.new(translations: term.names_en)) %>
+    </div>
 
+    <div class="term-definition">
     <%= render(DefinitionComponent.new(definition: term.definition)) %>
+    </div>
 
+    <div class="term-usages">
     <%= render(UsagesComponent.new(usages: term.usages)) %>
+    </div>
 
+    <div class="term-precursors">
     <%= render(PrecursorsComponent.new(precursors: term.precursors)) %>
+    </div>
 
-    <p>
-      <%= link_to "Show this term", term %>
-    </p>
-
+    <br>
+    <br>
+    <br>
 </div>

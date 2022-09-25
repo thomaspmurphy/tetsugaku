@@ -15,9 +15,11 @@
     <% @terms.each do |term| %>
       <li>
 
-        <%= render(NameJpComponent.new(name_jp: term.name_jp)) %>
+        <h2 class="name_jp">
+        <%= render(NameJpComponent.new(name_jp: term.name_jp)) %></h2>
+      
 
-        <%= render(RomanjiComponent.new(romanji: term.name_romanji)) %>
+        <%= render(RomanjiComponent.new(romanji: term.name_romanji)) %>:  
 
         <%= term.names_en.first %>
 

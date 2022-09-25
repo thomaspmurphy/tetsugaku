@@ -41,7 +41,7 @@ div#tetsulogo {
     padding: 5px 45px;
  }
 
- h2#name_jp { 
+ h2.name_jp { 
     font-family: 'M PLUS Rounded 1c', sans-serif; 
     font-size: 40px;
     font-weight: normal;
@@ -52,12 +52,45 @@ a {
     text-decoration: none;
 }
 
-#terms {
+.terms {
     padding-top: 25px;
+    margin-top: 25px;
+    padding-bottom: 25px;
+    margin-bottom: 25px;
 }
 
 span.show_link {
     display: flex; 
     text-align: right;
     justify-content: space-around;
+}
+
+.term-heading {
+    padding: 10px 10px;
+    margin: 5px 10px 5px 10px;
+}
+
+h2 {
+    font-size: 60px;
+}
+
+.term-translations {
+    position: relative;
+    float: right;
+    border: 6px solid #ffb300;
+    padding: 10px 15px;
+    margin-left: 10px;
+}
+
+.term-definition {
+    margin-top: 10px;
+}
+
+.term-usages {
+    margin-top: 10px;
+}
+
+.term-precursors {
+    margin-top: 10px;
+
 }

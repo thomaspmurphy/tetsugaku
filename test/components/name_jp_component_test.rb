@@ -3,10 +3,10 @@
 require "test_helper"
 
 class NameJpComponentTest < ViewComponent::TestCase
-  def test_component_renders_something_useful
-    # assert_equal(
-    #   %(<span>Hello, components!</span>),
-    #   render_inline(NameJpComponent.new(message: "Hello, components!")).css("span").to_html
-    # )
+  def test_component_renders_japanese
+    term = terms(:one)
+    render_inline DefinitionComponent.new(definition: term.name_jp)
+    assert_text(term.name_jp)
+    assert(true, term.names_en.kind_of?(String))
   end
 end

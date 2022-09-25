@@ -3,10 +3,11 @@
 require "test_helper"
 
 class PrecursorsComponentTest < ViewComponent::TestCase
-  def test_component_renders_something_useful
-    # assert_equal(
-    #   %(<span>Hello, components!</span>),
-    #   render_inline(PrecursorsComponent.new(message: "Hello, components!")).css("span").to_html
-    # )
+  def test_component_renders_precursors
+    term = terms(:one)
+    render_inline DefinitionComponent.new(definition: term.precursors)
+    assert(true, term.precursors.kind_of?(Array))
+    assert_text(term.precursors)
   end
 end
+

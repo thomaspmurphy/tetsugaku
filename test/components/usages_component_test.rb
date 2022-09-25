@@ -3,10 +3,10 @@
 require "test_helper"
 
 class UsagesComponentTest < ViewComponent::TestCase
-  def test_component_renders_something_useful
-    # assert_equal(
-    #   %(<span>Hello, components!</span>),
-    #   render_inline(UsagesComponent.new(message: "Hello, components!")).css("span").to_html
-    # )
+  def test_component_renders_usages
+    term = terms(:one)
+    render_inline DefinitionComponent.new(definition: term.usages)
+    assert(true, term.usages.kind_of?(Array))
+    assert_text(term.usages)
   end
 end
